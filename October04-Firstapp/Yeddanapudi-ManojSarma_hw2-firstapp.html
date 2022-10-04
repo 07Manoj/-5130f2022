@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Web Page</title>
+    <style>
+        body{
+            background-color: darkgray;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+        
+        }
+        header {
+        align-self: flex-start;
+        position: sticky;
+        top: 2px;
+        }
+        .container {
+         display: flex;
+         width: 100%;
+         justify-content: space-around;
+  
+         border-radius: 25px;
+         background-color: aqua;
+         color: black;
+         height: 35px;
+         font-size: 23px;
+        
+        font-weight: bold;
+        font: Verdana, Geneva, Tahoma, sans-serif;
+        
+        padding-top: 3px;
+        
+        }
+
+        a {
+    text-decoration: none;
+    color: black;
+  }
+  
+        a:hover {
+        background-color:greenyellow;
+        border: 2px solid royalblue;
+        border-radius: 10px;
+        }
+       
+
+        .selfie img {
+
+            display: flex;
+        
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            margin-top: 100px;         
+
+        }
+        h1{
+            text-align: center;
+            color: chocolate;
+        }
+        
+         p{
+            justify-content: center;
+            margin-top: 100px;  
+            font-size: 25px;
+            width: 60%;
+            margin-right: auto;
+            margin-left: auto;
+        
+
+        }
+        table,th,td{
+            margin-left: auto;
+            font-size: 25px;
+            border: 2px solid teal;
+            margin-top: 20px;
+            border-collapse: collapse;
+            text-align: center;
+            margin-right: auto;
+            margin-bottom: 70px;
+            
+        }
+        #table h2{
+            margin-top: 10px;
+            justify-content: center;
+            text-align: center;
+            color: chocolate;
+        }
+
+        
+       #Contact h2 {
+            
+            font-size: 35px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            justify-content: center;
+            text-align: center;
+            margin-top: 30px;
+            color: chocolate;
+            
+
+        }
+        a{
+                text-decoration: none;
+            }
+        ul {
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            padding-left:300px;
+            padding-top: 20px;
+
+        }
+        li{
+            line-height:55px;
+        }
+        li img:hover{
+
+            width:50px;
+            height: 50px;
+            
+            opacity: 1;
+        }
+
+        li img {
+
+            width: 30px;
+            height: 30px;
+        }
+       
+
+    </style>
+    <script>
+
+		alert("Hello and Welcome to IWS Assignment");
+
+	</script>
+</head>
+<body>
+    <header>
+	<div class="container">
+
+		<div class="item"> <a href=" "> HOME </a></div>
+		<div class="item"> <a href="#table"> COURSES </a> </div>
+		<div class="item"> <a href="#About"> ABOUT </a> </div>
+		<div class="item"> <a href="#Contact"> CONTACT ME</a> </div>
+
+
+	</div>
+</header>
+    <div class="selfie">
+    <img src="selfie.jpeg" alt="my selfie"> </div>
+    <h1> Manoj Sarma Yeddanapudi</h1>
+    
+
+    <div id="About">
+    <p> I am Manoj Sarma Yeddanapudi, a computer science graduate student passionate towards Networking and Cyber Security. I am also part of the University Of Massachusetts Lowell Cyber Security Club. I am set to compete in renowned Cyber Security competitions like Hivestorm and Collegiate Cyber Defense. </p>
+        </div>
+    <br>
+
+<div id="table">
+    <h2> Courses</h2>
+
+    <table> 
+        <tr>
+            <th> Courses Taken</th>
+            <th> Location </th>
+            <th> Semester</th>
+        </tr>
+        <tr>
+            <td> Database 1</td>
+            <td> North Campus</td>
+            <td> Fall 2021</td>
+
+        </tr>
+        <tr>
+            <td> Cyber Defense</td>
+            <td> East Campus</td>
+            <td> Fall 2021</td>
+            
+
+        </tr>
+        <tr>
+            <td> Data Communications 1&2</td>
+            <td> North Campus</td>
+            <td> Fall 2021 & Spring 2022</td>
+        </tr>
+        <tr>
+            <td> Network Security  </td>
+            <td> East Campus </td>
+            <td> Spring 2022 </td>
+        </tr>
+        <tr>
+            <td> Internet & Web Systems  </td>
+            <td> North Campus</td>
+            <td> Fall 2022</td>
+        </tr>
+    </table>
+</div>
+
+<div id="Contact">
+    <h2> Contact Details</h2>
+    <ul type="none">
+        <li><img src="Call.png"> Mobile: +1 9085890307</li>
+
+        <li> <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><img src="Email.png" alt="Image"> </a> <a href=" https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" target=" _blank"> Email: manoj.sarma7@gmail.com</a>
+        </br> </li>
+
+        <!-- The target  and blank are attributes. This is used to open the link in a new window-->
+        
+        <li><a href="https://www.linkedin.com/in/manojsarma999/"><img src="Linkedin.png" alt="Image"></a><a href="https://www.linkedin.com/in/manojsarma999/" target="_blank"> LINKEDIN</a> </br> </li>
+    </ul>
+</div>
+</body>
+
+</body>
+</html>
