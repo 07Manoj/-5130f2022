@@ -13,11 +13,11 @@ const firebaseConfig = {
 
 
 
-var IWSF22 = firebase.database().ref("IWSF22");
+var IWSF22db = firebase.database().ref("IWSF22");
 
-document.getElementById("IWSF22").addEventListener("submit", submitForm);
+document.getElementById("IWSF22").addEventListener("submit", SendForm);
 
-function submitForm(event){
+function SendForm(event){
 event.preventDefault();
 
 var name = getElementVal("name");
@@ -34,7 +34,7 @@ savedata(name, email, username, password, socialmedia,socialmedia1, file);
 }
 
 const savedata = (name, email, username, password, socialmedia, socialmedia1, file) => {
-var IWSF22= IWSF22.push();
+var IWSF22= IWSF22db.push();
 IWSF22.set({
     name: name,
     email: email,
