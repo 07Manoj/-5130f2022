@@ -1,11 +1,12 @@
-We are trying to develop a social media web application that would eliminate fake profiles and bots. 
-This has been inspired from the 'Elon Musk' Twitter buy out situation where he estimated that Twitter has 11% of bots users which kills the user expereince and authentic interest in the app
-We are trying to eliminate or reduce the number of bots a social media appliaction has by launching a web application which ties your account to some sort of identity. 
+We are trying to develope a web application that would give a customizaed report by taking into consideration various factors that would effect a customer's experience with respect to EV.
 
-For instance, a user who needs to login to the app has to submit some sort of identity to prove that he is a legitimate user. It could be a "Drivers License, Student ID, Employment ID, Passport, Bank Statements. 
-This would link your account to your ID which proves the user who has logged in is a legitimate user trying to have the best experience. 
+Buying a car is  subjective to everybody and the factors one should consider based on their use case. We create a questionnaire which is based on important factors that would effect EV and the questions are but not limited to 
+  . How often do you drive and what is the frequency of your travel.
+  . What is the avarage distance you drive in a month?
+  . What is your location?
+  . WHta is the primary purpose of you buying this car?
 
 
-Technologies we would be using to develop this are HTML, CSS, Javascript, MongoDb. These technologies would help us develop a webpage and have some sort of databse connectivity to take inputs from the users and map their identities. 
+Technologies we would be using to develop this are HTML, CSS, Javascript, Firebase. These technologies would help us develop a webpage and have some sort of databse connectivity to take inputs from the users, process their inputs and give out a customized report.
 
 
